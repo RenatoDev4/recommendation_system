@@ -27,7 +27,7 @@ def steam_recommend() -> None:
     titulo = "Cientista de Dados"
     linkedin_url = "https://linkedin.com/in/renato-moraes-11b546272"
     github_url = "https://github.com/RenatoDev4"
-    github_projeto = "https://github.com/RenatoDev4/chatbot_documents"
+    github_projeto = "https://github.com/RenatoDev4/recommendation_system"
 
     st.sidebar.text(f"Nome: {nome}")
     st.sidebar.text(f"Cargo: {titulo}")
