@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+steamreviews = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly-express = "*"
+nbformat = "*"
+dask = "*"
+scikit-learn = "*"
+streamlit = "*"
+black = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
