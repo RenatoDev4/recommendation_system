@@ -42,7 +42,7 @@ def steam_recommend() -> None:
 
     st.sidebar.header("Sobre o Projeto")
     st.sidebar.info(
-        "Projeto consiste em um sistema de recomendação utilizando aprendizado de máquina (ML) para jogos da plataforma Steam. Utilizando técnicas de filtragem colaborativa, o sistema analisa as preferências do usuário e as características dos jogos para sugerir títulos que sejam mais propensos a serem do interesse do usuário. Os usuários podem inserir o nome de um jogo ou explorar opções disponíveis em um menu para receber recomendações personalizadas."
+        "Este sistema oferece recomendações personalizadas de jogos da plataforma Steam, utilizando técnicas de aprendizado de máquina (ML). Os usuários podem inserir o nome de um jogo específico ou explorar opções disponíveis em um menu para receber sugestões adaptadas às suas preferências individuais."
     )
 
     popular_games = pickle.load(open("./data/popular_games.pkl", "rb"))
